@@ -24,7 +24,7 @@ const About = () => {
         <p className="text-gray-600 mb-6">
           Have questions or feedback? Reach out to our friendly customer care team:
           <br />
-          Phone: +254 11296 6525 <br></br>
+          Phone: +254 11296 6525 (Karanja) <br></br>
           Email: <a href="mailto:info@haochapchap.com" className="text-blue-500 hover:underline">info@haochapchap.com</a>
         </p>
       </div>
