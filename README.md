@@ -1,1 +1,2 @@
-Real estste application using the MERN stack
+In Kenya, Cities and towns are mostly business and educational centers. This makes them overly populated and due to this most people find it hard to look for residential places to live as they work or study. In my research I discovered that most people spend almost 3hrs per day just looking for the right house that will suit them.
+I hereby came up with an application system that makes this whole process easier and time saving. In this application, house owners place details (Location, price, size) of the house and their contact details. On the other hand, the ones looking for houses will also log in the application and will be able to view the houses available and also search for houses of their own preference.
