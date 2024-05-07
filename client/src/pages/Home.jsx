@@ -58,7 +58,7 @@ export default function Home() {
           Hao Chap-chap is the best place to find your next perfect place to
           live.
           <br />
-          We have a wide range of properties for you to choose from.
+          We have a wide range of rental houses for you to choose from. Explore our curated listings, filter by location, price, and features, and find the perfect place to call home. Our user-friendly interface makes it easy to search, save favorites, and connect with house agents.
         </div>
         <Link
           to={'/search'}
