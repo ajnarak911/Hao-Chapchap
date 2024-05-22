@@ -51,9 +51,9 @@ export default function CreateListing() {
           setUploading(false);
         })
         .catch((err) => {
-            setImageUploadError('Image upload failed (2 mb max per image)');
-            setUploading(false);
-          });
+          setImageUploadError('Image upload failed (2 mb max per image)');
+          setUploading(false);
+        });
     } else {
       setImageUploadError('You can only upload 6 images per listing');
       setUploading(false);
@@ -162,7 +162,7 @@ export default function CreateListing() {
         <div className='flex flex-col gap-4 flex-1'>
           <input
             type='text'
-            placeholder='House-type eg;bedsitter,onebedroom....'
+            placeholder='Name'
             className='border p-3 rounded-lg'
             id='name'
             maxLength='62'
@@ -173,7 +173,7 @@ export default function CreateListing() {
           />
           <textarea
             type='text'
-            placeholder='Description eg; furnished...'
+            placeholder='Description'
             className='border p-3 rounded-lg'
             id='description'
             required
@@ -182,7 +182,7 @@ export default function CreateListing() {
           />
           <input
             type='text'
-            placeholder='Address/Location'
+            placeholder='Address'
             className='border p-3 rounded-lg'
             id='address'
             required
